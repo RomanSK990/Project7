@@ -89,7 +89,7 @@ public class Part2IterationSnapshots {
             printFormattedArray(randomarray, -1, -1);
             System.out.println("Inner loop:");
 
-            for (int j = 0; j < randomarray.length - i - 1; j++) {
+            for (int j = 0; j < randomarray.length - 1; j++) {
                 boolean swapped = false;
                 if (randomarray[j] > randomarray[j + 1]) {
                     int temp = randomarray[j];
